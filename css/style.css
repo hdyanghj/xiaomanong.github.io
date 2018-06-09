@@ -437,8 +437,8 @@ ul.callbacks_tabs {
 
 /*-- Paddings-&-Margins --*/
 
-.about, .services, .team, .pricing, .projects, .testimonial {
-	padding: 100px 0;
+.about, .services, .team, .pricing, .projects, .newsletter{
+    padding: 100px 0;
 }
 
 /*-- //Paddings-&-Margins --*/
@@ -447,11 +447,11 @@ ul.callbacks_tabs {
 
 /*-- Headings --*/
 
-.about h1, .services h3, .team h3, .pricing h3, .projects h3, .testimonial h3 {
-	font-size: 36px;
-	margin-bottom: 15px;
-	color: #07AF8E;
-}
+    .about h1, .services h3, .team h3, .pricing h3, .projects h3, .newsletter h3 {
+        font-size: 36px;
+        margin-bottom: 15px;
+        color: #07AF8E;
+    }
 
 /*-- Heading-Underline --*/
 
@@ -635,67 +635,7 @@ h4.modal-title {
 	background-color: #CCC;
 }
 
-.pricing-grids {
-	margin-top: 125px;
-}
 
-.grid1, .grid2, .grid3 {
-	width: 25%;
-	float: left;
-	margin: 0 4.1% 0;
-	background-color: #FFF;
-	position: relative;
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-ms-transition: 0.5s all;
-}
-
-.grid1:hover, .grid2:hover, .grid3:hover {
-	transform: scale(1.05);
-	-webkit-transform: scale(1.05);
-	-moz-transform: scale(1.05);
-	-o-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	z-index: 1;
-	border: none;
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-ms-transition: 0.5s all;
-}
-
-.grid1 span, .grid2 span, .grid3 span {
-	position: absolute;
-	top: -11%;
-	right: 0%;
-	color: #07af8e;
-	font-size: 20px;
-	font-weight: 900;
-	padding: 10px 30px;
-	background-color: #FFF;
-}
-
-.grid1 h4, .grid2 h4, .grid3 h4 {
-	text-align: center;
-	padding: 30px 0 10px;
-	color: #777;
-	background-color: #FFF;
-	font-weight: 600;
-	letter-spacing: -1px;
-}
-
-.grid1 ul.para li, .grid2 ul.para li, .grid3 ul.para li {
-	display: block;
-	padding: 20px 0px;
-	margin: 0 40px;
-	font-size: 15px;
-	color: #777;
-	border-bottom: 1px solid #777;
-	text-align: center;
-}
 
 ul.para li:nth-child(4) {
 	border-bottom: none;
@@ -1492,26 +1432,6 @@ figure.effect-apollo:hover figcaption::before {
 
 /*-- Testimonial --*/
 
-.slider2 {
-	padding: 0 200px;
-}
-
-.slider2 p {
-	font-size: 16px;
-	text-align: center;
-	line-height: 30px;
-	font-weight: 100;
-	color: #000;
-}
-
-.slider2 h4 {
-	font-size: 20px;
-	float: right;
-	margin-top: 20px;
-	font-weight: 600;
-	color: #000;
-}
-
 /*-- Testimonial --*/
 
 
@@ -1519,7 +1439,7 @@ figure.effect-apollo:hover figcaption::before {
 /*-- Newsletter --*/
 
 .newsletter {
-	padding: 50px 0;
+	padding: 60px 0 10px;
 	background-color: #000;
 	color: #FFF;
 }
@@ -1792,9 +1712,9 @@ ul.social-icons li a:hover {
 }
 
 @media screen and (max-width:1024px) {
-	.about, .services, .team, .pricing, .projects, .testimonial, .follow {
-		padding: 75px 0;
-	}
+    .about, .services, .team, .pricing, .projects, .newsletter {
+        padding: 75px 0;
+    }
 	.progress {
 		margin-bottom: 25px;
 	}
@@ -1805,9 +1725,10 @@ ul.social-icons li a:hover {
 	.ch-item {
 		margin-left: -5%;
 	}
-	.slider2 {
-		padding: 0 175px;
-	}
+
+    .myIntro {
+        display: none;
+    }
 }
 
 @media screen and (max-width:991px) {
@@ -1841,9 +1762,7 @@ ul.social-icons li a:hover {
 		width: 25%;
 		float: left;
 	}
-	.slider2 {
-		padding: 0 125px;
-	}
+
 	.subscribe {
 		text-align: left;
 	}
@@ -1854,9 +1773,7 @@ ul.social-icons li a:hover {
 		left: 10px;
 		box-shadow: 0 0 0 15px rgba(255,255,255,0.2), inset 0 0 3px rgba(115,114, 23, 0.8);
 	}
-	.slider2 {
-		padding: 0 100px;
-	}
+
 	.email-form input.email {
 		width: 68%;
 	}
@@ -1902,15 +1819,7 @@ ul.social-icons li a:hover {
 	.ch-item {
 		margin-left: -10%;
 	}
-	.slider2 {
-		padding: 0 75px;
-	}
-	.slider2 p {
-		font-size: 15px;
-	}
-	.slider2 h4 {
-		margin-top: 5px;
-	}
+	
 	.email-form input.email {
 		width: 66%;
 	}
@@ -1969,9 +1878,9 @@ ul.social-icons li a:hover {
 	.dr-menu.dr-menu-open ul {
 		padding: 16px 0;
 	}
-	.about, .services, .team, .pricing, .projects, .testimonial, .follow, .social, .copyright {
-		padding: 50px 0;
-	}
+    .about, .services, .team, .pricing, .projects, .follow, .social, .copyright, .newsletter {
+        padding: 50px 0;
+    }
 	.heading-underline {
 		margin: 0 auto 40px;
 	}
@@ -2012,12 +1921,7 @@ ul.social-icons li a:hover {
 	.service-grid p {
 		line-height: 25px;
 	}
-	.pricing-grids {
-		margin-top: 100px;
-	}
-	.grid1 ul.para li, .grid2 ul.para li, .grid3 ul.para li {
-		font-size: 14px;
-	}
+	
 	.team {
 		height: 800px;
 	}
@@ -2035,6 +1939,7 @@ ul.social-icons li a:hover {
 		padding: 15px 30px 14px;
 		margin-left: 0;
 	}
+
 }
 
 @media screen and (max-width:736px) {
@@ -2058,6 +1963,7 @@ ul.social-icons li a:hover {
 		line-height: 28px;
 		font-size: 14px;
 	}
+
 }
 
 @media screen and (max-width:667px) {
@@ -2070,9 +1976,7 @@ ul.social-icons li a:hover {
 	.team-grid {
 		padding-left: 80px;
 	}
-	.slider2 {
-		padding: 0 35px;
-	}
+	
 	.slider3 {
 		padding: 0 100px;
 	}
@@ -2086,6 +1990,7 @@ ul.social-icons li a:hover {
 	.email-form input.email {
 		width: 67%;
 	}
+
 }
 
 @media screen and (max-width:640px) {
@@ -2105,6 +2010,7 @@ ul.social-icons li a:hover {
 	.email-form input.email {
 		width: 65%;
 	}
+
 }
 
 @media screen and (max-width:603px) {
@@ -2122,12 +2028,7 @@ ul.social-icons li a:hover {
 	.team-grid {
 		padding-left: 60px;
 	}
-	.slider2 {
-		padding: 0 20px;
-	}
-	.slider2 p {
-		font-size: 14px;
-	}
+
 	.subscribe, .email-form {
 		width: 100%;
 		padding: 0;
@@ -2147,6 +2048,7 @@ ul.social-icons li a:hover {
 	.slider3 .callbacks_nav.next {
 		right: -105.5%;
 	}
+
 }
 
 @media screen and (max-width:568px) {
@@ -2175,33 +2077,11 @@ ul.social-icons li a:hover {
 		width: 100%;
 		padding: 10px 50px;
 	}
-	.pricing-grids {
-		margin-top: 75px;
-	}
-	.grid1, .grid2, .grid3 {
-		width: 65%;
-		margin-left: 17.5%;
-	}
-	.grid1 h4, .grid2 h4, .grid3 h4 {
-		font-size: 25px;
-		font-weight: 600;
-	}
-	.grid1 ul.para li, .grid2 ul.para li, .grid3 ul.para li {
-		font-size: 15px;
-		padding: 15px 0;
-	}
-	.grid1 .sign, .grid2 .sign, .grid3 .sign {
-		padding: 0.5em 0 1.5em;
-	}
-	.grid1, .grid2 {
-		margin-bottom: 65px;
-	}
+
 	.team-grid {
 		padding-left: 55px;
 	}
-	.slider2 {
-		padding: 0;
-	}
+
 	.follow {
 		padding-bottom: 20px;
 	}
@@ -2220,26 +2100,21 @@ ul.social-icons li a:hover {
 	.copyright {
 		padding: 30px;
 	}
+
 }
 
 @media screen and (max-width:533px) {
 	.team-grid {
 		padding-left: 45px;
 	}
-	.slider2 p {
-		font-size: 13px;
-		font-weight: 500;
-		line-height: 27px;
-	}
-	.slider2 h4 {
-		margin-top: 10px;
-	}
+
+
 }
 
 @media screen and (max-width:480px) {
-	.about h1, .skills h2, .services h3, .team h3, .pricing h3, .projects h3, .testimonial h3 {
-		font-size: 30px;
-	}
+    .about h1, .skills h2, .services h3, .team h3, .pricing h3, .projects h3, .newsletter h3 {
+        font-size: 30px;
+    }
 	.heading-underline {
 		margin: 0 auto 30px;
 		width: 30%;
@@ -2267,6 +2142,7 @@ ul.social-icons li a:hover {
 	.slider3 p {
 		margin: 90px 0 15px;
 	}
+
 }
 
 @media screen and (max-width:414px) {
@@ -2304,12 +2180,13 @@ ul.social-icons li a:hover {
 	.modal-body p {
 		line-height: 22px;
 	}
+
 }
 
 @media screen and (max-width:384px) {
-	.about, .services, .team, .pricing, .projects, .testimonial, .follow {
-		padding: 30px 0;
-	}
+    .about, .services, .team, .pricing, .projects, .follow, .newsletter{
+        padding: 30px 0;
+    }
 	.skills {
 		padding: 0;
 		margin-top: 30px;
@@ -2339,12 +2216,13 @@ ul.social-icons li a:hover {
 	.payment-sendbtns input[type="reset"] {
 		padding: 6px 45px;
 	}
+
 }
 
 @media screen and (max-width:360px) {
-	.about h1, .skills h2, .services h3, .team h3, .pricing h3, .projects h3, .testimonial h3 {
-		font-size: 29px;
-	}
+    .about h1, .skills h2, .services h3, .team h3, .pricing h3, .projects h3, .newsletter h3 {
+        font-size: 29px;
+    }
 	.service-grid {
 		padding: 10px 0;
 	}
@@ -2367,6 +2245,7 @@ ul.social-icons li a:hover {
 	.payment-sendbtns input[type="reset"] {
 		padding: 6px 40px;
 	}
+
 }
 
 @media screen and (max-width:320px) {
@@ -2376,9 +2255,9 @@ ul.social-icons li a:hover {
 	.logo a {
 		font-size: 25px;
 	}
-	.about h1, .skills h2, .services h3, .team h3, .pricing h3, .projects h3, .testimonial h3 {
-		font-size: 25px;
-	}
+    .about h1, .skills h2, .services h3, .team h3, .pricing h3, .projects h3, .newsletter h3 {
+        font-size: 25px;
+    }
 	.grid1, .grid2, .grid3 {
 		width: 100%;
 		margin-left: 0;
@@ -2404,6 +2283,7 @@ ul.social-icons li a:hover {
 	.payment-sendbtns input[type="reset"] {
 		padding: 6px 23px;
 	}
+
 }
 
 
