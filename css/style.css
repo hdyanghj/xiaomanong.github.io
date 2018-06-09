@@ -259,13 +259,13 @@ ul.callbacks_tabs {
 }
 
 .dr-menu > div .dr-icon:after {
-	content: "\e008";
-	position: absolute;
-	font-size: 50%;
-	line-height: 3.25;
-	left: -11px;
-	opacity: 0;
-}
+        content: "\e9c0";
+        position: absolute;
+        font-size: 50%;
+        line-height: 3.25;
+        left: -11px;
+        opacity: 0;
+    }
 
 .dr-menu.dr-menu-open > div .dr-icon:after {
 	opacity: 1;
@@ -404,11 +404,11 @@ ul.callbacks_tabs {
 }
 
 .dr-icon-camera:before {
-	content: "\e002";
+    content: "\ea80";
 }
 
 .dr-icon-heart:before {
-	content: "\e003";
+    content: "\e9da";
 }
 
 .dr-icon-settings:before {
@@ -419,16 +419,19 @@ ul.callbacks_tabs {
 	content: "\e005";
 }
 
-.dr-icon-download:before {
-	content: "\e006";
+.dr-icon-laptop:before {
+    content: "\ea81";
 }
 
 .dr-icon-user:before {
-	content: "\e001";
+    content: "\e971";
 }
 
+.dr-icon-profile:before {
+    content: "\e923";
+}
 .dr-icon-menu:before {
-	content: "\e007";
+    content: "\e9bd";
 }
 
 /*-- //Navigation-Menu-Effect --*/
