@@ -20,7 +20,7 @@ body{ background-color:#fff; font-size:16px;}
 .button1{right:174px}
 .bantxt{width:100%;height:60px;opacity:1;background-color:#eceff1;border-radius:5px;border:0;padding-left:50px;color:#000}
 
-.seoicn{position:absolute;left:20px;bottom:18px;color:#b0bec5;font-size:18px}
+.seoicn{position:absolute;left:20px;top:18px;color:#b0bec5;font-size:18px}
 .bd-main{ padding-bottom:2rem;}
 
 .bd-sidebar{ overflow-y:auto; }
@@ -96,9 +96,9 @@ body{ background-color:#fff; font-size:16px;}
 }
 @media (max-width: 44em){
 	#sousuo{width: 100%;height:auto;text-align: center;}
-	.button{height: 50px;font-size: 12px; margin-top: 10px;  border-radius: 5px;position: static;}
+	.button{ width: 40%; height: 50px; margin: 10px 1% 0; padding: 0; display: inline-block; border-radius: 5px;position: static;}
 	.bantxt{ height: 50px;}
-	.seoicn{bottom: 13px;}
+	.seoicn{top: 13px;}
 	.bd-content .content-list a{ display:inline-block; width:48%; margin:0 2% 0 0;}
 	.bd-content .content-list .has-popover, .bd-content .content-list a{ width:48%;}
 }
