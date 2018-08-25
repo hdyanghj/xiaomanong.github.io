@@ -97,11 +97,12 @@ body{ background-color:#fff; font-size:16px;}
 }
 @media (max-width: 44em){
 	#sousuo{width: 100%;height:50px;}
-	.button{width:8rem; height: 50px;font-size: 12px;}
+	.button{width:8rem; height: 50px;font-size: 12px; border-radius: 5px;}
 	.button1{right:8.1rem;}
 	.bantxt{ height: 50px;}
 	.seoicn{bottom: 13px;}
 	.bd-content .content-list a{ display:inline-block; width:48%; margin:0 2% 0 0;}
+	.bd-content .content-list .has-popover, .bd-content .content-list a{ width:48%;}
 }
 @media (max-width: 34em){
 	.container{
