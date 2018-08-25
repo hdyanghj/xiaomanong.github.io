@@ -96,7 +96,7 @@ body{ background-color:#fff; font-size:16px;}
 }
 @media (max-width: 44em){
 	#sousuo{width: 100%;height:50px;}
-	.button{height: 50px;font-size: 12px; margin-top: 10px;  border-radius: 5px;}
+	.button{height: 50px;font-size: 12px; margin-top: 10px;  border-radius: 5px;position: static;}
 	.bantxt{ height: 50px;}
 	.seoicn{bottom: 13px;}
 	.bd-content .content-list a{ display:inline-block; width:48%; margin:0 2% 0 0;}
