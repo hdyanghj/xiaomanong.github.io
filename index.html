@@ -47,7 +47,7 @@
 		    </div>
 		</div>
 	</section> 
-	<iframe class="baniframe" sandbox="allow-scripts allow-same-origin" id="mh" src="js/coder1.html"></iframe>
+	<iframe class="baniframe" sandbox="allow-scripts allow-same-origin" id="banIframe" src="js/coder1.html"></iframe>
 </header>
 <section class="moon-curve">
 </section>
@@ -943,6 +943,18 @@
 </footer>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script>
+//Math.floor(Math.random()*10+1);
+window.onload = function(){
+	var a = new Array();
+	a[0] = 'js/coder1.html';
+	a[1] = 'js/coder2.html';
+	a[2] = 'js/coder3.html';
+	a[3] = 'js/coder4.html';
+	var b = Math.floor(Math.random()*10+1);
+	document.getElementById('banIframe').src = a[b%4];
+}
+</script>
 <script type="text/javascript">
 	$(function() {
 		var INPUT_PLACEHOLDER = '赶紧输入您想搜索的内容吧';
@@ -1025,6 +1037,7 @@
 	    });
 	});
 </script>
+
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -1039,5 +1052,6 @@
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
+
 </body>
 </html>
