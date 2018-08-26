@@ -124,6 +124,11 @@ nav p a{color: #efefef;font-size: 10px!important;}
 	.button1{right:10.1rem}
 }
 @media (max-width: 44em){
+	body{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
 	.bd-pageheader {
 	    padding-top: 2rem;
 	    padding-bottom: 4rem;
