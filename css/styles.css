@@ -133,4 +133,4 @@ nav p a{color: #efefef;font-size: 10px!important;}
 	.seoicn{top: 13px;}
 	.bd-content .content-list a{ display:inline-block; width:48%; margin:0 2% 0 0;}
 	.bd-content .content-list .has-popover, .bd-content .content-list a{ width:48%;}
-}
+	nav p{display: none;}
