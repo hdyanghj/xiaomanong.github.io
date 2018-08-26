@@ -949,10 +949,8 @@ window.onload = function(){
 	var a = new Array();
 	a[0] = 'js/coder1.html';
 	a[1] = 'js/coder2.html';
-	a[2] = 'js/coder3.html';
-	a[3] = 'js/coder4.html';
 	var b = Math.floor(Math.random()*10+1);
-	document.getElementById('banIframe').src = a[b%4];
+	document.getElementById('banIframe').src = a[b%2];
 }
 </script>
 <script type="text/javascript">
