@@ -7,7 +7,7 @@ body{ background-color:#fff; font-size:16px;}
 .affix{ top:1rem; }
 
 
-.bd-pageheader{ padding:2rem .9375rem; background:url(../img/rule.svg) left top no-repeat; color:#aaa; position:relative; margin-bottom: 3rem;}
+.bd-pageheader{ padding:2rem .9375rem; background:url(../img/rule.svg) left top no-repeat; color:#aaa; position:relative;}
 .bd-pageheader:before{ content: ""; position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: url(../img/banner.jpg); background-size:cover; z-index: -1; }
 .bd-pageheader .container{ position:relative; z-index:2; }
 .bd-pageheader h1{ color:#fff; font-size:2rem; text-align:center;}
@@ -22,7 +22,23 @@ body{ background-color:#fff; font-size:16px;}
 
 .seoicn{position:absolute;left:20px;top:18px;color:#b0bec5;font-size:18px}
 .bd-main{ padding-bottom:2rem;}
-
+.moon-curve {
+    background: #fff;
+    padding-bottom: 32px;
+    padding-bottom: 2rem;
+    position: relative;
+}
+.moon-curve:after {
+    background-image: url(../img/curve-bg.svg);
+    background-size: 100% 100%;
+    content: "";
+    display: block;
+    height: 40px;
+    position: absolute;
+    top: -39px;
+    width: 100%;
+    z-index: 1;
+}
 .bd-sidebar{ overflow-y:auto; }
 .bd-sidebar .nav a{ color: #999; padding:4px 16px;}
 .bd-sidebar .nav a:hover{padding-left:14px; border-left:2px solid #ec4d1c; background:#fff; color: #ec4d1c; }
@@ -37,7 +53,7 @@ body{ background-color:#fff; font-size:16px;}
 .bd-sidebar .nav .nav li.active>a{ padding-left:26px; border-left:2px solid #ec4d1c; background: #eee;}
 
 
-.bd-content .content-item-title{ padding:4rem 0; margin:0; text-align:center;}
+.bd-content .content-item-title{ padding:2rem 0; margin:0; text-align:center;}
 .bd-content .content-item-title p{ font-size:.8rem; margin:.8rem 0; color:#999;}
 .bd-content .content-item{ margin-bottom:4rem;}
 .bd-content .content-item h1{ font-size:3rem; margin-bottom:1rem;background:#fafafa; padding:16px;}
@@ -75,7 +91,7 @@ body{ background-color:#fff; font-size:16px;}
 	.navbar-static-top .nav-item{ margin-right:2rem;}
 	.bd-pageheader {
 	    padding-top: 6rem;
-	    padding-bottom: 4rem;
+	    padding-bottom: 8rem;
 	    text-align: left;
 	}
 }
@@ -95,6 +111,11 @@ body{ background-color:#fff; font-size:16px;}
 	.button1{right:10.1rem}
 }
 @media (max-width: 44em){
+	.bd-pageheader {
+	    padding-top: 6rem;
+	    padding-bottom: 8rem;
+	    text-align: left;
+	}
 	#sousuo{width: 100%;height:auto;text-align: center;}
 	.button{ width: 40%; height: 50px; margin: 10px 1% 0; padding: 0; display: inline-block; border-radius: 5px;position: static;}
 	.bantxt{ height: 50px;}
