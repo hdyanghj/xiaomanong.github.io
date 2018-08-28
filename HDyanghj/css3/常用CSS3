@@ -1,3 +1,6 @@
+:nth-of-type(1)相邻元素选择
+:before内容之前添加元素
+:after内容后添加元素
 放大效果
 	.brand_ul li a{
  -webkit-transition: all 0.5s;
