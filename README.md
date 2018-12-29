@@ -34,9 +34,6 @@ Small code farm website navigation is a completely free website, no need to down
 - JS框架
 - 熟悉一门后端语言
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 
