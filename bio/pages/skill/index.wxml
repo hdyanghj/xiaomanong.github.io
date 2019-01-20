@@ -1,0 +1,17 @@
+<!--个人技能-->
+<view class='skill'>
+  <view class='skill-title'>
+    <text>前端技能</text>
+  </view>
+  <view class='jianjie'>2010年开始前端生涯，工作期间遇见了很多问题，自己也学会了很多。</view>
+  <view class='header'>
+
+    <view class='h-div' wx:for="{{Skill}}" wx:index="index" wx:item="item" wx:key="index">
+      <text>{{item.name}}</text>
+      <view class='h-box'>
+         <progress percent="{{item.num}}" activeColor='{{item.color}}' show-info />
+      </view>
+    </view>
+  </view>
+  <view class='yejiao'>Copyright © 2017 www.imaring.com</view>  
+</view>

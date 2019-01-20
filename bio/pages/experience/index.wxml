@@ -1,0 +1,111 @@
+<!-- 工作经历 -->
+<view class='experience'>
+  <view class='skill-title'>
+    <text>项目</text>
+  </view>
+  <view class='jobs'>
+    <view class='jobs-list'>
+      <view class='jobs-list-date'>2019 ></view>
+      <view class='jobs-list-text'>
+        <view># 体姿矫正项目公众号使用uni-app+vue进行前端页面开发。</view>
+        <view># 体姿矫正项目小程序使用uni-app+vue进行前端页面开发。</view>
+        <view># 体姿矫正项目APP使用uni-app+vue进行前端页面开发。</view>
+      </view>
+    </view>
+    <view class='jobs-list'>
+      <view class='jobs-list-date'>2018 ></view>
+      <view class='jobs-list-text'>
+        <view># 体测项目公众号使用uni-app+vue进行前端页面开发。</view>
+        <view># 体测项目小程序使用uni-app+vue进行前端页面开发。</view>
+        <view># 体测项目APP使用uni-app+vue进行前端页面开发。</view>
+        <view># 扑克战记游戏官网、落地页使用H5+CSS3+jQuery进行前端页面开发。</view>
+        <view># 欧冠足球游戏官网、落地页使用H5+CSS3+jQuery进行前端页面开发。</view>
+      </view>
+    </view>
+    <view class='jobs-list'>
+      <view class='jobs-list-date'>2017 ></view>
+      <view class='jobs-list-text'>
+        <view># 太古遮天游戏官网、落地页使用H5+CSS3+jQuery进行前端页面开发。</view>
+        <view># 笑傲仙侠游戏官网、落地页使用H5+CSS3+jQuery进行前端页面开发。</view>
+        <view># 三国之乱舞游戏官网、落地页使用H5+Bootstrap+CSS3+jQuery进行前端页面开发。</view>
+        <view># 热血江湖游戏官网、落地页使用H5+Bootstrap+CSS3+jQuery进行前端页面开发。</view>
+        <view># 古剑奇谭游戏官网、落地页使用H5+Bootstrap+CSS3+jQuery进行前端页面开发。</view>
+      </view>
+    </view>
+    <view class='jobs-list'>
+      <view class='jobs-list-date'>2016 ></view>
+      <view class='jobs-list-text'>
+        <view># GAMELUMI海外游戏平台使用div+css+jQuery进行前端页面开发。</view>
+        <view># 九州志游戏官网、落地页使用H5+CSS3+jQuery进行前端页面开发。</view>
+        <view># 魅影传说游戏官网、落地页使用H5+CSS3+jQuery进行前端页面开发。</view>
+        <view># 奇迹MU游戏官网、落地页使用H5+CSS3+jQuery进行前端页面开发。</view>
+      </view>
+    </view>
+    <view class='jobs-list'>
+      <view class='jobs-list-date'>2015 ></view>
+      <view class='jobs-list-text'>
+        <view># 闪电战3游戏官网使用div+css+jQuery进行前端页面开发。</view>
+        <view># 闪电战3游戏落地页使用div+css+jQuery进行前端页面开发。</view>
+        <view># 大决战游戏落地页使用div+css+jQuery进行前端页面开发。</view>
+        <view># 大决战游戏活动专题使用div+css+jQuery进行前端页面开发。</view>
+        <view># 国战游戏活动专题前端使用div+css+jQuery进行页面开发。</view>
+        <view># 国战游戏EDM前端使用div+css+jQuery进行页面开发。</view>
+      </view>
+    </view>
+    <view class='jobs-list'>
+      <view class='jobs-list-date'>2014 ></view>
+      <view class='jobs-list-text'>
+        <view># 大决战游戏官网前端使用div+css+js进行页面开发。</view>
+        <view># 大决战游戏落地页前端使用div+css+js进行页面开发。</view>
+        <view># 大决战游戏活动专题前端使用div+css+js进行页面开发。</view>
+        <view># 国战游戏活动专题前端使用div+css+js进行页面开发。</view>
+        <view># 国战游戏EDM使用div+css+js进行前端页面开发。</view>
+      </view>
+    </view>
+    <view class='jobs-list'>
+      <view class='jobs-list-date'>2013 ></view>
+      <view class='jobs-list-text'>
+        <view># 国战游戏官网前端使用div+css+js进行页面开发。</view>
+        <view># 国战游戏落地页前端使用div+css+js进行页面开发。</view>
+        <view># 国战游戏活动专题前端使用div+css+js进行页面开发。</view>
+        <view># 国战游戏EDM前端使用div+css+js进行页面开发。</view>
+        <view># 枪战世界游戏前端使用div+css+js进行页面开发。</view>
+      </view>
+    </view>
+    <view class='jobs-list'>
+      <view class='jobs-list-date'>2012 ></view>
+      <view class='jobs-list-text'>
+        <view># 热血江湖游戏官网前端使用div+css+js进行页面改版。</view>
+        <view># cdcgames游戏平台增加板块。</view>
+        <view># 热血江湖游戏活动专题使用div+css+js进行页面制作。</view>
+        <view># 特种部队游戏活动专题使用div+css+js进行页面制作。</view>
+        <view># 热血江湖游戏落地页使用div+css+js进行页面制作。</view>
+        <view># 特种部队游戏落地页使用div+css+js进行页面制作。</view>
+      </view>
+    </view>
+    <view class='jobs-list'>
+      <view class='jobs-list-date'>2011 ></view>
+      <view class='jobs-list-text'>
+        <view># 热血江湖游戏官网使用div+css+js进行前端页面改版。</view>
+        <view># cdcgames游戏平台增加板块。</view>
+        <view># 热血江湖活动专题使用div+css+js进行页面制作。</view>
+        <view># 特种部队游戏使用div+css+js进行官网前端页面改版。</view>
+        <view># 神泣游戏官网使用div+css+js进行前端页面开发。</view>
+        <view># EVE游戏官网使用div+css+js进行前端页面开发。</view>
+      </view>
+    </view>
+    <view class='jobs-list'>
+      <view class='jobs-list-date'>2010 ></view>
+      <view class='jobs-list-text'>
+        <view># 古剑奇谭游戏官网使用div+css+js进行前端页面开发。</view>
+        <view># 古剑奇谭游戏活动专题使用div+css+js进行前端页面开发。</view>
+        <view># 古剑奇谭游戏落地页使用div+css+js进行前端页面开发。</view>
+        <view># 聚仙游戏官网使用div+css+js进行前端页面开发。</view>
+        <view># 聚仙游戏活动专题使用div+css+js进行前端页面开发。</view>
+        <view># 聚仙游戏落地页使用div+css+js进行前端页面开发。</view>
+        <view># 血雨游戏官网使用div+css+js进行前端页面开发。</view>
+      </view>
+    </view>
+  </view>
+  <view class='yejiao'>Copyright © 2017 www.imaring.com</view>
+</view>

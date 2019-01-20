@@ -1,0 +1,97 @@
+/**index.wxss**/
+.hander{
+  width: 100%;
+  height: 440rpx;
+  overflow: hidden;
+  background: #000000;
+  position: relative;
+}
+.hander-bg{
+  width: 100%;
+}
+.hander-title{
+  width: 100%;
+  height: 400rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hander-title-web{
+  color: #FFFFFF;
+  padding: 40rpx 0;
+  font-size: 40rpx;
+}
+.user-resume{
+  width: 100%;
+  padding-top: 200rpx;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 40rpx;
+  letter-spacing:18rpx;
+  text-shadow:5px 2px 6px #000;
+}
+.jianjie{
+  width: 90%;
+  margin-top: 20rpx;
+  padding: 16rpx;
+  font-size: 24rpx;
+  text-indent: 2em;
+  border: 1px solid #000
+
+}
+.body-list{
+  width: 95%;
+  padding: 20rpx;
+  padding-bottom: 0;
+}
+.title{
+  width: 100%;
+  padding: 20rpx 0;
+  text-align: left;
+  font-weight: bold
+}
+.body-list-cont{
+  width: 100%;
+  padding-bottom: 20rpx;
+  text-align: left;
+  display: flex;
+  flex-direction:row;
+}
+.list-cont{
+  width: 50%;
+  display: flex;
+}
+.list-danhang{
+  width: 100%;
+  display: flex;
+}
+.list-cont view,.list-danhang view{
+  font-size: 24rpx;
+  padding: 10rpx 20rpx;
+}
+.list-key{
+  background: #000000;
+  color: #FFFFFF;
+  
+}
+.list-value{
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.tag-cont{
+  width: 100%;
+}
+.jobs-list{
+  width: 95%;
+}
+.jobs-list-cont{
+  font-size: 24rpx;
+  padding: 10rpx 0;
+}
+.jobs-list-cont text{
+  font-weight: bold
+}
+.xiangqing{
+  font-size: 22rpx;
+  color: #626262;
+}

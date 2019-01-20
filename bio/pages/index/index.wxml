@@ -1,0 +1,136 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='hander'>
+    <image class='hander-bg' src='../../imgs/hander-bg.jpg'></image>
+    <view class='hander-title'>
+      <view class='hander-title-web'>
+        <text>{{user.position}}</text>
+      </view>
+      <view class="user-resume">{{resume}}</view>
+    </view>
+  </view>
+  
+  <view class='jianjie'>
+    <text>一切看似美好的过程之中，有许多不同却深刻的故事，跟随着生命和宇宙的运行发生中。您好，我是杨洪举，一名WEB前端工程师。曾就职于网元圣唐、中华网游戏集团、空中网等大型游戏公司，主要负责游戏平台、游戏官网的PC及移动端前端开发。</text> 
+  </view>
+  <view class='body-list'>
+    <view class='title'><text>#  初步了解</text></view>
+    <view class='body-list-cont'>
+      <view class='list-cont'>
+        <view class='list-key'>姓名:</view>
+        <view class='list-value'>{{user.name}}</view>
+      </view>
+      <view class='list-cont'>
+        <view class='list-key'>性别:</view>
+        <view class='list-value'>{{user.sex}}</view>
+      </view>
+    </view>
+    <view class='body-list-cont'>
+      <view class='list-cont'>
+        <view class='list-key'>生日:</view>
+        <view class='list-value'>{{user.age}}</view>
+      </view>
+      <view class='list-cont'>
+        <view class='list-key'>学历:</view>
+        <view class='list-value'>{{user.xueli}}</view>
+      </view>
+    </view>
+    <view class='body-list-cont'>
+      <view class='list-cont'>
+        <view class='list-key'>专业:</view>
+        <view class='list-value'>{{user.zhuanye}}</view>
+      </view>
+      <view class='list-cont'>
+        <view class='list-key'>学校:</view>
+        <view class='list-value'>{{user.xuexiao}}</view>
+      </view>
+    </view>
+    <view class='body-list-cont'>
+      <view class='list-cont'>
+        <view class='list-key'>经验:</view>
+        <view class='list-value'>{{user.jingyan}}</view>
+      </view>
+      <view class='list-cont'>
+        <view class='list-key'>坐标:</view>
+        <view class='list-value'>{{user.coordinate}}</view>
+      </view>
+    </view>
+    <view class='body-list-cont'>
+      <view class='list-danhang'>
+        <view class='list-key'>籍贯:</view>
+        <view class='list-value'>{{user.jiguan}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='body-list'>
+    <view class='title'><text>#  工作经历</text></view>
+    <view class='jobs-list'>
+      <view class='jobs-list-cont'>
+        <view><text>2018 ─ 至今  </text>北京体语科技有限公司</view>
+        <view class='xiangqing'>在此公司主要负责体测项目和体姿项目的H5、公众号、小程序、APP等前端页面开发。</view>
+      </view>
+      <view class='jobs-list-cont'>
+        <view><text>2015 ─ 2018  </text>鹿米互动(北京)科技有限公司</view>
+        <view class='xiangqing'>在此公司主要负责海外游戏平台、页游官网、手游官网、落地页、活动专题等前端页面开发。</view>
+      </view>
+      <view class='jobs-list-cont'>
+        <view><text>2013 ─ 2015  </text>北京空中信使信息技术有限公司</view>
+        <view class='xiangqing'>在此公司主要负责海外游戏平台、页游官网、手游官网、落地页、活动专题等前端页面开发。</view>
+      </view>
+      <view class='jobs-list-cont'>
+        <view><text>2011 ─ 2013  </text>一起玩游戏网(原中华网游戏集团)</view>
+        <view class='xiangqing'>在此公司主要负责海外游戏平台、页游官网、手游官网、落地页、活动专题等前端页面开发。</view>
+      </view>
+      <view class='jobs-list-cont'>
+        <view><text>2010 ─ 2011  </text>北京网元圣唐娱乐科技有限公司</view>
+        <view class='xiangqing'>在此公司主要负责海外游戏平台、页游官网、手游官网、落地页、活动专题等前端页面开发。</view>
+      </view>
+    </view>
+  </view>
+  <view class='body-list'>
+    <view class='title'><text>#  技能栈</text></view>
+    <view class='tag-cont'>
+      <view class='jobs-list-cont'><text>Web开发  </text>HTML/CSS/JavaScript</view>
+      <view class='jobs-list-cont'><text>UI框架  </text>Bootstrap/PureCSS/Element Ui/Semantic</view>
+      <view class='jobs-list-cont'><text>IDE  </text>Sublime/WebStorm</view>
+      <view class='jobs-list-cont'><text>JS框架  </text>jQuery/Vue/React/Angular</view>
+      <view class='jobs-list-cont'><text>设计切图  </text>Photoshopps/Artificial Intelligence/蓝湖</view>
+      <view class='jobs-list-cont'><text>构建工具  </text>WebPack/Grunt/NPM</view>
+      <view class='jobs-list-cont'><text>版本管理  </text>Git/Svn</view>
+      <view class='jobs-list-cont'><text>微信  </text>公众号开发/小程序开发</view>
+      <view class='jobs-list-cont'><text>图表工具  </text>Echars</view>
+      
+    </view>
+  </view>
+  
+
+  <view class='body-list'>
+    <view class='title'><text>#  联系方式</text></view>
+    <view class='body-list-cont'>
+      <view class='list-danhang'>
+        <view class='list-key'>微信:</view>
+        <view class='list-value' bindtap='clickcopy'>{{user.weixin}}</view>
+      </view>
+    </view>
+    <view class='body-list-cont'>
+      <view class='list-danhang'>
+        <view class='list-key'>QQ:</view>
+        <view class='list-value' bindtap='clickcopy'>{{user.qq}}</view>
+      </view>
+    </view>
+    <view class='body-list-cont'>
+      <view class='list-danhang'>
+        <view class='list-key'>手机:</view>
+        <view class='list-value' bindtap='clickcopy'>{{user.mobile}}</view>
+      </view>
+    </view>
+    <view class='body-list-cont'>
+      <view class='list-danhang'>
+        <view class='list-key'>邮箱:</view>
+        <view class='list-value' bindtap='clickcopy'>{{user.email}}</view>
+      </view>
+    </view>
+  </view>
+  <view class='yejiao'>Copyright © 2017 www.imaring.com</view>  
+</view>

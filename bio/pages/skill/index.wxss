@@ -1,0 +1,38 @@
+/* 个人技能 */
+.skill{
+  width: 100%;
+  height: auto;
+  margin: 0rpx;
+  padding: 20rpx 0;
+}
+
+.header{
+  width: 100%;
+  height: auto;
+  padding: 40rpx 0;
+}
+.jianjie{
+  font-size: 24rpx;
+  padding: 20rpx;
+  padding-bottom: 0;
+}
+.h-div{
+  width: 100%;
+  padding-top: 14rpx;
+  /* border: 1px solid red; */
+}
+.h-div text{
+  padding: 8rpx 20rpx;
+  font-size: 26rpx;
+}
+.h-div .h-box{
+  width: 95%;
+  margin: 0 auto;
+  font-size: 26rpx;
+}
+.h-text-right{
+  float: right;
+}
+progress{
+  font-size: 26rpx;
+}

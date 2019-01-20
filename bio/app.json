@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/experience/index",
+    "pages/skill/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "imgs/wechat.png",
+        "selectedIconPath": "imgs/wechat_01.png",
+        "text": "关于我"
+      },
+      {
+        "pagePath": "pages/skill/index",
+        "iconPath": "imgs/jineng.png",
+        "selectedIconPath": "imgs/jineng_01.png",
+        "text": "技能"
+      },
+      {
+        "pagePath": "pages/experience/index",
+        "iconPath": "imgs/xiangmu.png",
+        "selectedIconPath": "imgs/xiangmu_01.png",
+        "text": "项目"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "个人简历",
+    "navigationBarTextStyle":"black"
+  }
+  
+}

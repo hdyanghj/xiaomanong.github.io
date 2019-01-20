@@ -1,0 +1,22 @@
+/* 工作经历 */
+.experience{
+  width: 100%;
+  height: auto;
+}
+
+.jobs{
+  width: 95%;
+  margin: 0 auto;
+}
+.jobs-list{
+  width: 100%;
+}
+.jobs-list-date{
+  font-weight: bold;
+  font-size: 30rpx;
+  padding: 20rpx 0 10rpx;
+}
+.jobs-list-text view{
+  font-size: 24rpx;
+  padding: 6rpx 0;
+}
