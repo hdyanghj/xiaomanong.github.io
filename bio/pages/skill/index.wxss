@@ -3,18 +3,27 @@
   width: 100%;
   height: auto;
   margin: 0rpx;
-  padding: 20rpx 0;
+  padding: 20rpx 0 0;
 }
-
+.title{
+  width: 95%;
+  padding: 40rpx 0 20rpx;
+  text-align: left;
+  font-weight: bold;
+  margin: 0 auto;
+}
 .header{
   width: 100%;
   height: auto;
-  padding: 40rpx 0;
+  padding-bottom: 40rpx;
 }
 .jianjie{
   font-size: 24rpx;
   padding: 20rpx;
   padding-bottom: 0;
+}
+.jianjie text{
+  font-weight: bold;
 }
 .h-div{
   width: 100%;

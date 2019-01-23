@@ -10,11 +10,11 @@ Page({
       age: '1988.08',
       minzu: '汉',
       xueli: '大专',
-      xuexiao: '北京外国语学院',
+      xuexiao: '北京外国语大学',
       zhuanye: '计算机科学&技术',
       position: '［WEB前端攻城狮］',
       coordinate: '首都北京',
-      jingyan:'七年前端开发',
+      jingyan:'八年前端开发',
       jiguan: '河北 邯郸 临漳(三国故地 六朝古都)',
       weixin: 'hongju_Yang',
       qq: '938246567',
@@ -29,10 +29,14 @@ Page({
   },
   //事件处理函数
   bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
+   
+  },
+  clickphone: function () {
+    wx.makePhoneCall({
+      phoneNumber: '18810292567'
     })
   },
+  
   clickcopy: function (e) {
     // console.log(e)
     wx.setClipboardData({
@@ -52,39 +56,7 @@ Page({
 
   },
   onLoad: function () {
-    if (app.globalData.userInfo) {
-      this.setData({
-        userInfo: app.globalData.userInfo,
-        hasUserInfo: true
-      })
-    } else if (this.data.canIUse){
-      // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
-      // 所以此处加入 callback 以防止这种情况
-      app.userInfoReadyCallback = res => {
-        this.setData({
-          userInfo: res.userInfo,
-          hasUserInfo: true
-        })
-      }
-    } else {
-      // 在没有 open-type=getUserInfo 版本的兼容处理
-      wx.getUserInfo({
-        success: res => {
-          app.globalData.userInfo = res.userInfo
-          this.setData({
-            userInfo: res.userInfo,
-            hasUserInfo: true
-          })
-        }
-      })
-    }
+  
   },
-  getUserInfo: function(e) {
-    console.log(e)
-    app.globalData.userInfo = e.detail.userInfo
-    this.setData({
-      userInfo: e.detail.userInfo,
-      hasUserInfo: true
-    })
-  }
+  
 })

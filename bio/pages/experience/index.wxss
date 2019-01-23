@@ -2,6 +2,7 @@
 .experience{
   width: 100%;
   height: auto;
+  padding: 20rpx 0 0;
 }
 
 .jobs{
@@ -18,5 +19,5 @@
 }
 .jobs-list-text view{
   font-size: 24rpx;
-  padding: 6rpx 0;
+  padding: 10rpx 0;
 }

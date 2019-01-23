@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/startup/index",
     "pages/index/index",
     "pages/experience/index",
     "pages/skill/index",
@@ -15,7 +16,7 @@
         "pagePath": "pages/index/index",
         "iconPath": "imgs/wechat.png",
         "selectedIconPath": "imgs/wechat_01.png",
-        "text": "关于我"
+        "text": "关于"
       },
       {
         "pagePath": "pages/skill/index",
@@ -33,9 +34,9 @@
   },
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "个人简历",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"#fff"
   }
   
 }

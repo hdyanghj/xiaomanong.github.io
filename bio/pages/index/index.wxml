@@ -14,7 +14,7 @@
     <text>一切看似美好的过程之中，有许多不同却深刻的故事，跟随着生命和宇宙的运行发生中。您好，我是杨洪举，一名WEB前端工程师。曾就职于网元圣唐、中华网游戏集团、空中网等大型游戏公司，主要负责游戏平台、游戏官网的PC及移动端前端开发。</text> 
   </view>
   <view class='body-list'>
-    <view class='title'><text>#  初步了解</text></view>
+    <view class='title'><text>##  初步了解</text></view>
     <view class='body-list-cont'>
       <view class='list-cont'>
         <view class='list-key'>姓名:</view>
@@ -64,49 +64,83 @@
   </view>
 
   <view class='body-list'>
-    <view class='title'><text>#  工作经历</text></view>
+    <view class='title'><text>##  技能栈</text></view>
+    <view class='tag-cont'>
+      <view class='jobs-list-cont'>* 熟悉AngularJs、vueJS、React等主流MVC、MVVM框架；</view>
+      <view class='jobs-list-cont'>* 掌握localStorage、sessionStorage等前端存储方案，记录用户操作习惯或常用数据，从而降低HTTP请求，提升用户体验；</view>
+      <view class='jobs-list-cont'>* 掌握JSONP和CORS等跨域解决方案；</view>
+      <view class='jobs-list-cont'>* 熟练运用WebStorm,Sublime,Photoshop,HBuilder等常用网页设计制作软件</view>
+      <view class='jobs-list-cont'>* 熟练使用SVN、git版本控制工具，进行代码管理，实现敏捷开发；</view>
+      <view class='jobs-list-cont'>* 熟练使用Bootstarp框架，通过栅格系统快速布局响应式页面以适应不同设备；</view>
+      <view class='jobs-list-cont'>* 熟练使用Uni-App框架，编译到Android版、iOS版、H5版、微信小程序版、支付宝小程序版、百度小程序版等多个平台；</view>
+      <view class='jobs-list-cont'>* 熟练使用Ajax，实现异步页面无刷新抽取数据，同步校验数据；</view>
+      <view class='jobs-list-cont'>* 熟练使用jQuery框架，实现页面的交互效果，提高用户体验；</view>
+      <view class='jobs-list-cont'>* 熟练使用HTML5和CSS3，实现应用一站式跨屏（PC端与移动端）开发；</view>
+      <view class='jobs-list-cont'>* 熟练使用HTML、CSS、JavaScript等前端技术，完成网页静态布局，开发兼容主流浏览器的页面，以及实现页面的交互，提升用户体验；</view>
+      <view class='jobs-list-cont'>* 了解node.js，利用其搭建简单的服务器。</view>
+      
+    </view>
+  </view>
+
+  <view class='body-list'>
+    <view class='title'><text>##  工作经历</text></view>
     <view class='jobs-list'>
       <view class='jobs-list-cont'>
-        <view><text>2018 ─ 至今  </text>北京体语科技有限公司</view>
-        <view class='xiangqing'>在此公司主要负责体测项目和体姿项目的H5、公众号、小程序、APP等前端页面开发。</view>
+        <view><text>* 2018 ─ 至今  </text>北京体语科技有限公司</view>
+        <view class='xiangqing'>+ 在此公司主要负责体测项目和体姿项目的H5、公众号、小程序、APP等前端页面开发。</view>
+        <view class='xiangqing'>+ 使用Uni-App框架，进行编译并发布到Android版、iOS版、H5版、公众号、微信小程序版等多个平台；</view>
+        <view class='xiangqing'>目前在职中。。。</view>
       </view>
       <view class='jobs-list-cont'>
-        <view><text>2015 ─ 2018  </text>鹿米互动(北京)科技有限公司</view>
-        <view class='xiangqing'>在此公司主要负责海外游戏平台、页游官网、手游官网、落地页、活动专题等前端页面开发。</view>
+        <view><text>* 2015 ─ 2018  </text>鹿米互动(北京)科技有限公司</view>
+        <view class='xiangqing'>+ 在职期间曾参与公司运营所有项目的前端开发工作：包括公司官网、海外游戏平台、页戏官网、手游网站、APP等项目；</view>
+        <view class='xiangqing'>+ 根据项目需求开发项目前端页面，利用Html5+Css3+Bootstrap高度还原Psd效果图，并适应各主流浏览器(包括PC和手机端)；</view>
+        <view class='xiangqing'>+ 使用JavaScript、jQuery、Swiper、H5和Css3实现页面特效，利用Ajax与后端联调进行数据对接；</view>
+        <view class='xiangqing'>+ 使用Html、Css、jQuery进行页游框架制作，并调用嵌套flash游戏；</view>
+        <view class='xiangqing'>+ 处理兼容性问题，使用浏览器Firebug工具查询bug并进行修复;</view>
+        <view class='xiangqing'>+ 编写项目开发总结，把错误和解决方案，兼容性问题如何解决写成文档。</view>
+        <view class='xiangqing'>+ 使用FTP与远程桌面进行项目上线管理，通过域名控制台进行域名解析，实现二级域名。</view>
+        <view class='xiangqing'>+ 使用wordpress搭建公司中国官方网站，使用亚马逊Windows服务器搭建项目，并上线。</view>
+        <view class='xiangqing'>+ 使用svn、git团队协作开发工具，进行资源管理。</view>
       </view>
       <view class='jobs-list-cont'>
-        <view><text>2013 ─ 2015  </text>北京空中信使信息技术有限公司</view>
-        <view class='xiangqing'>在此公司主要负责海外游戏平台、页游官网、手游官网、落地页、活动专题等前端页面开发。</view>
+        <view><text>* 2013 ─ 2015  </text>北京空中信使信息技术有限公司</view>
+        <view class='xiangqing'>+ 在职期间曾参与部门内部运营项目的前端开发工作：包括游戏官网、活动专题、落地页等；</view>
+        <view class='xiangqing'>+ 根据项目需求开发项目前端页面，利用Html+Css高度还原Psd效果图，并适应各主流浏览器(主要PC端)；</view>
+        <view class='xiangqing'>+ 使用JavaScript、jQuery、Swiper实现页面特效，利用Ajax与后端联调进行数据对接；</view>
+        <view class='xiangqing'>+ 处理兼容性问题，使用浏览器Firebug工具查询bug并进行修复;</view>
+        <view class='xiangqing'>+ 登录后台管理系统进行日常维护(公告、视频、游戏安装包上传)；</view>
       </view>
       <view class='jobs-list-cont'>
-        <view><text>2011 ─ 2013  </text>一起玩游戏网(原中华网游戏集团)</view>
-        <view class='xiangqing'>在此公司主要负责海外游戏平台、页游官网、手游官网、落地页、活动专题等前端页面开发。</view>
+        <view><text>* 2011 ─ 2013  </text>一起玩游戏网(原中华网游戏集团)</view>
+        <view class='xiangqing'>+ 在职期间曾参与公司运营项目的前端开发、改版工作：包括游戏平台、游戏官网、游戏引导页、游戏活动专题等网站前端页面；</view>
+        <view class='xiangqing'>+ 根据项目需求及PSD设计稿，使用Html+Css高度还原Psd效果图，并适应各主流浏览器(主要PC端)；</view>
+        <view class='xiangqing'>+ 使用JavaScript、jQuery实现页面特效，利用Ajax与后端联调进行数据对接；</view>
+        <view class='xiangqing'>+ 处理兼容性问题，使用浏览器Firebug工具查询bug并进行修复;</view>
+        <view class='xiangqing'>+ 登录后台管理系统进行日常维护(公告、视频、游戏安装包上传)；</view>
       </view>
       <view class='jobs-list-cont'>
-        <view><text>2010 ─ 2011  </text>北京网元圣唐娱乐科技有限公司</view>
-        <view class='xiangqing'>在此公司主要负责海外游戏平台、页游官网、手游官网、落地页、活动专题等前端页面开发。</view>
+        <view><text>* 2010 ─ 2011  </text>北京网元圣唐娱乐科技有限公司</view>
+        <view class='xiangqing'>+ 在职期间曾参与公司运营项目的前端开发、改版工作：包括游戏平台、游戏官网、游戏引导页、游戏活动专题等网站前端页面；</view>
+        <view class='xiangqing'>+ 根据PSD设计使用PS切图、Html+Css进行页面排版布局；</view>
+        <view class='xiangqing'>+ 使用JavaScript、jQuery实现页面特效；</view>
+        <view class='xiangqing'>+ 处理各浏览器兼容性问题，使用浏览器Firebug工具查询bug并进行修复;</view>
       </view>
     </view>
   </view>
+
   <view class='body-list'>
-    <view class='title'><text>#  技能栈</text></view>
+    <view class='title'><text>##  兴趣爱好</text></view>
     <view class='tag-cont'>
-      <view class='jobs-list-cont'><text>Web开发  </text>HTML/CSS/JavaScript</view>
-      <view class='jobs-list-cont'><text>UI框架  </text>Bootstrap/PureCSS/Element Ui/Semantic</view>
-      <view class='jobs-list-cont'><text>IDE  </text>Sublime/WebStorm</view>
-      <view class='jobs-list-cont'><text>JS框架  </text>jQuery/Vue/React/Angular</view>
-      <view class='jobs-list-cont'><text>设计切图  </text>Photoshopps/Artificial Intelligence/蓝湖</view>
-      <view class='jobs-list-cont'><text>构建工具  </text>WebPack/Grunt/NPM</view>
-      <view class='jobs-list-cont'><text>版本管理  </text>Git/Svn</view>
-      <view class='jobs-list-cont'><text>微信  </text>公众号开发/小程序开发</view>
-      <view class='jobs-list-cont'><text>图表工具  </text>Echars</view>
+      <view class='jobs-list-cont'><text>阅读：</text>技术书籍、技术社区、小说；</view>
+      <view class='jobs-list-cont'><text>骑行：</text>山地车、摩托车；</view>
+      <view class='jobs-list-cont'><text>手游：</text>王者荣耀、刺激战场；</view>
       
     </view>
   </view>
   
-
   <view class='body-list'>
-    <view class='title'><text>#  联系方式</text></view>
+    <view class='title'><text>##  联系方式</text></view>
     <view class='body-list-cont'>
       <view class='list-danhang'>
         <view class='list-key'>微信:</view>
@@ -115,14 +149,14 @@
     </view>
     <view class='body-list-cont'>
       <view class='list-danhang'>
-        <view class='list-key'>QQ:</view>
+        <view class='list-key'>企鹅:</view>
         <view class='list-value' bindtap='clickcopy'>{{user.qq}}</view>
       </view>
     </view>
     <view class='body-list-cont'>
       <view class='list-danhang'>
         <view class='list-key'>手机:</view>
-        <view class='list-value' bindtap='clickcopy'>{{user.mobile}}</view>
+        <view class='list-value' bindtap='clickphone'>{{user.mobile}}</view>
       </view>
     </view>
     <view class='body-list-cont'>
@@ -132,5 +166,11 @@
       </view>
     </view>
   </view>
-  <view class='yejiao'>Copyright © 2017 www.imaring.com</view>  
+  <view class='body-list'>
+    <view class='title'><text>##  在线联系</text></view>  
+    <view class='body-list-cont' style='padding:20rpx 0 0 0'>
+      <button class='lianxi-button' open-type="contact">点击和我聊天</button>
+    </view>
+  </view>
+  <view class='yejiao'>Copyright © 2019 www.imaring.com</view>  
 </view>

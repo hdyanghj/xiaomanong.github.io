@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='hander'>
+    <image class='hander-bg' src='../../imgs/logo.png'></image>
+    <view class="loading_box">
+      <view class="loading loading_1"></view>
+      <view class="loading loading_2"></view>
+      <view class="loading loading_3"></view>
+    </view>
+  </view>
+
+  <view class='yejiao' style='color:#FFF; font-size:20rpx; position: fixed; bottom:40rpx;'>Copyright © 2019 www.imaring.com</view>  
+</view>
