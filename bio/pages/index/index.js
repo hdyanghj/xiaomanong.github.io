@@ -20,6 +20,7 @@ Page({
       qq: '938246567',
       email: 'HDyanghj@gmail.com',
       mobile: '18810292567',
+      www: 'www.imaring.com'
     },
     avatarUrl: '../../imgs/avatar.jpg',
     resume: '满怀激情  放飞梦想',
@@ -56,7 +57,9 @@ Page({
 
   },
   onLoad: function () {
-  
+    console.log("%c恭喜！天赐锦鲤砸中了你", "font-weight:bold");
+    console.log("%c好嗨哟~感觉人生已达到了高潮", "color:red");
+    console.log("%c本项目由码灵前端导航提供：http://www.imaring.com （码灵前端导航前端攻城狮的福利）", "color:green");
   },
   
 })

@@ -30,6 +30,13 @@
   letter-spacing:18rpx;
   text-shadow:5px 2px 6px #000;
 }
+.daohang{
+  width: 100%;
+  font-size: 24rpx;
+  padding-top: 10rpx;
+  color: #FFFFFF;
+  text-align: center
+}
 .jianjie{
   width: 90%;
   margin-top: 20rpx;
@@ -86,6 +93,13 @@
   border: 1px solid #000;
   display: block;
   border-radius: 0;
+}
+.liao_icon{
+  display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  margin-top: -8rpx;
 }
 .tag-cont{
   width: 100%;

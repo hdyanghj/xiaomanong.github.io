@@ -4,14 +4,15 @@
     <text># 前端技能</text>
   </view>
   <view class='jianjie'>2010年开始前端生涯，工作期间遇见了很多问题，自己也学会了很多，时间是一切财富中最宝贵的财富。</view>
-  <view class='jianjie'><text>Web开发  </text>HTML/CSS/JavaScript</view>
+  <view class='jianjie'><text>前端网址导航：</text>www.imaring.com</view>
+  <view class='jianjie'><text>Web开发  </text>Html/Css/JavaScript</view>
   <view class='jianjie'><text>UI框架  </text>Bootstrap/PureCSS/Element Ui/Semantic</view>
   <view class='jianjie'><text>IDE  </text>Sublime/WebStorm/HBuilder</view>
   <view class='jianjie'><text>JS框架  </text>jQuery/Vue/React/Angular</view>
   <view class='jianjie'><text>设计切图  </text>Photoshopps/Artificial Intelligence/蓝湖</view>
   <view class='jianjie'><text>构建工具  </text>WebPack/Grunt/NPM</view>
   <view class='jianjie'><text>版本管理  </text>Git/Svn</view>
-  <view class='jianjie'><text>微信  </text>公众号开发/小程序开发</view>
+  <view class='jianjie'><text>微信  </text>公众号/小程序</view>
   <view class='jianjie'><text>数据可视化  </text>Echars</view>
   <view class='title'><text>## 技能能量值</text></view>
   <view class='header'>
@@ -22,5 +23,5 @@
       </view>
     </view>
   </view>
-  <view class='yejiao'>Copyright © 2019 www.imaring.com</view>  
+  <view class='yejiao'>Copyright © 2019 imaring.com</view>  
 </view>

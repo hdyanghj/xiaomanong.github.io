@@ -165,12 +165,18 @@
         <view class='list-value' bindtap='clickcopy'>{{user.email}}</view>
       </view>
     </view>
+    <view class='body-list-cont'>
+      <view class='list-danhang'>
+        <view class='list-key'>网址:</view>
+        <view class='list-value' bindtap='clickcopy'>{{user.www}}</view>
+      </view>
+    </view>
   </view>
   <view class='body-list'>
     <view class='title'><text>##  在线联系</text></view>  
     <view class='body-list-cont' style='padding:20rpx 0 0 0'>
-      <button class='lianxi-button' open-type="contact">点击和我聊天</button>
+      <button class='lianxi-button' open-type="contact">点击和我聊天<image class='liao_icon' src='../../imgs/liao_01.png'></image></button>
     </view>
   </view>
-  <view class='yejiao'>Copyright © 2019 www.imaring.com</view>  
+  <view class='yejiao'>Copyright © 2019 imaring.com</view>  
 </view>

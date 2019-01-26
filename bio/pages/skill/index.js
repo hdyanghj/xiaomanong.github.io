@@ -18,7 +18,7 @@ Component({
         color: "#000000",
       }, {
         name: "* JavaScript",
-        num: "100",
+        num: "90",
         color: "#000000",
       }, {
         name: "* Vue",
@@ -34,7 +34,7 @@ Component({
         color: "#000000",
       }, {
         name: "* jQuery",
-        num: "100",
+        num: "90",
         color: "#000000",
       }, {
         name: "* Uni-App",
@@ -57,16 +57,16 @@ Component({
         num: "80",
         color: "#000000",
       }, {
-        name: "* Photoshopps",
-        num: "100",
+        name: "* Photoshop",
+        num: "90",
         color: "#000000",
       }, {
         name: "* Git",
-        num: "100",
+        num: "90",
         color: "#000000",
       }, {
         name: "* Svn",
-        num: "100",
+        num: "90",
         color: "#000000",
       }, {
         name: "* 公众号",
@@ -78,7 +78,7 @@ Component({
         color: "#000000",
       }, {
         name: "* APP",
-        num: "90",
+        num: "80",
         color: "#000000",
       }, {
         name: "* WebPack",
@@ -104,6 +104,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    
   }
 })
